@@ -1,2 +1,2 @@
 # seleniumjava
-Selenium Automation project
+1. Selenium Automation project
