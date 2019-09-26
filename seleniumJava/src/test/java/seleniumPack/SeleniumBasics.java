@@ -22,6 +22,7 @@ public class SeleniumBasics {
 		chk1.click();
 		System.out.println(chk1.isSelected());
 		driver.findElement(By.xpath("//input[@name='email_to[]' and @value='1']")).click();
+<<<<<<< HEAD
 		driver.findElement(By.xpath("//input[@name='email_to[]' and @value='2']")).click();
 
 		// Text box
@@ -44,7 +45,24 @@ public class SeleniumBasics {
 		
 		driver.findElement(By.name("visver_code")).sendKeys("ABCD");
 		driver.findElement(By.className("submit")).click();
+=======
 
+		// Select 3rd checkbox
+		driver.findElement(By.xpath("//input[@name='email_to[]' and @value='2']")).click();
+
+		driver.findElement(By.id("subject")).sendKeys("Selenium");
+		driver.findElement(By.id("email")).sendKeys("abc@gmail.com");
+		driver.findElement(By.id("q1")).sendKeys("java");
+>>>>>>> d1b034b7de7f4cf1a24488e217a10892b58a943f
+
+		Select dd1 = new Select(driver.findElement(By.id("q3")));
+		dd1.selectByIndex(1);
+		dd1.selectByVisibleText("Third Option");
+		dd1.selectByValue("Fourth Option");
+
+		driver.findElement(By.xpath("//input[@value='Third Option']")).click();
+		
+		//GIT
 	}
 
 }
