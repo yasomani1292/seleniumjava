@@ -22,41 +22,22 @@ public class SeleniumBasics {
 		System.out.println(chk1.isSelected());
 
 		driver.findElement(By.xpath("//input[@name='email_to[]' and @value='1']")).click();
-	
-		//Select 3rd checkbox
-		driver.findElement(By.xpath("//input[@name='email_to[]' and @value='2']")).click();
-		
-		driver.findElement(By.id("subject")).sendKeys("Selenium");
-		driver.findElement(By.id("email")).sendKeys("abc@gmail.com");    
-	    driver.findElement(By.id("q1")).sendKeys("java"); 
-	    
-	    
-	    
-	    Select dd1 = new Select(driver.findElement(By.id("q3")));
-	    dd1.selectByIndex(1);
-	    dd1.selectByVisibleText("Third Option");
-	    dd1.selectByValue("Fourth Option");
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
 
+		// Select 3rd checkbox
+		driver.findElement(By.xpath("//input[@name='email_to[]' and @value='2']")).click();
+
+		driver.findElement(By.id("subject")).sendKeys("Selenium");
+		driver.findElement(By.id("email")).sendKeys("abc@gmail.com");
+		driver.findElement(By.id("q1")).sendKeys("java");
+
+		Select dd1 = new Select(driver.findElement(By.id("q3")));
+		dd1.selectByIndex(1);
+		dd1.selectByVisibleText("Third Option");
+		dd1.selectByValue("Fourth Option");
+
+		driver.findElement(By.xpath("//input[@value='Third Option']")).click();
+		
+		//GIT
 	}
 
 }
