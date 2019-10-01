@@ -45,6 +45,7 @@ public class SeleniumBasics {
 		driver.findElement(By.name("visver_code")).sendKeys("ABCD");
 		driver.findElement(By.name("submit")).click();
 
+		driver.navigate().back();
 		int numLinks = driver.findElements(By.tagName("a")).size();
 		System.out.println(numLinks);
 
