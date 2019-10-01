@@ -43,7 +43,7 @@ public class SeleniumBasics {
 		driver.findElement(By.xpath("//a[@class='ui-state-default' and text()='17']")).click();
 
 		driver.findElement(By.name("visver_code")).sendKeys("ABCD");
-		driver.findElement(By.className("submit")).click();
+		driver.findElement(By.name("submit")).click();
 
 		int numLinks = driver.findElements(By.tagName("a")).size();
 		System.out.println(numLinks);
