@@ -1,0 +1,32 @@
+Java
+  1. Datatypes - int, float, String, char, boolean
+  2. Variables - Local, static, non-static
+  3. Class, Objects, Methods, Overloading
+  4. Loops - for, foreach, break, continue, if, else, elseif
+  5. Collections - List, set
+
+Selenium
+  1. Maven configuration
+  2. Basics - driver, navigation, boolean methods
+  3. Locators - xpath, cssselector
+  4. Handling different elements
+  5. Single and group of elements
+  6. Taking screenshots
+  7. Working with windows, frames, alerts
+  8. Waits - implicit, explicit, fluent
+  9. Keyboard and mouse interaction
+  10. Javascript executor
+  11. Driver configuration
+  12. File upload and download
+  
+TestNG
+  1. Annotations - beforesuite, aftersuite, beforetest, aftertest, beforeclass, afterclass, beforemethod, aftermethod
+  2. Logs, reports, asserts
+  2. Test - enabled, priority
+  3. Depends on methods and groups
+  4. Data-driven concept - @DataProvider
+  5. XML suites
+  6. Browser compatability testing
+  7. ITestResults - screenshots
+  8. Listeners with interface - screenshots
+  9. Selenium with Page object model
