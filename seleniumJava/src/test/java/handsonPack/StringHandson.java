@@ -4,12 +4,6 @@ public class StringHandson {
 
 	public static void main(String[] args) {
 
-//		getNumberOfCharsWords
-//		printChars
-//		printValues
-//		reverseString
-//		equalsIgnoreCase
-		
 		//Number of Chars and words
 		String add = "number of chars and words";
 		String[] words = add.split("\\s+");
