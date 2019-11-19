@@ -2,8 +2,10 @@ Java
   1. Datatypes - int, float, String, char, boolean
   2. Variables - Local, static, non-static
   3. Class, Objects, Methods, Overloading
-  4. Loops - for, foreach, break, continue, if, else, elseif
-  5. Collections - List, set
+  4. Arrays
+  5. Loops - for, foreach, break, continue, if, else, elseif
+  6. String functions
+  7. Collections - List, set
 
 Selenium
   1. Maven configuration
