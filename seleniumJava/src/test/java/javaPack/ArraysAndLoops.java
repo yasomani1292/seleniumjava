@@ -21,6 +21,11 @@ public class ArraysAndLoops {
 		for (int i = 0; i < n; i++) {
 			System.out.println(nums[i]);
 		}
+		
+		for (int num : nums)
+		{
+			System.out.println(num);
+		}
 
 		System.out.println(Arrays.toString(nums));
 
